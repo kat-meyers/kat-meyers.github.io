@@ -1,0 +1,30 @@
+/* Mobile */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	ul{
+		overflow: hidden;
+		background-color: #4A1942;
+	}
+	li{
+		float: left;
+	}
+	li a{
+		display: block;
+		text-align: center;
+		padding: 14px 16px;
+		color: black;
+		text-decoration: none;
+		font-weight: bold;
+		color: #EAEAEA;
+	}
+	li a:hover{
+		background-color: #893168;
+	}
+
+/*Desktop */
+@media screen and (min-width: 768px) {
+
+}
