@@ -9,37 +9,78 @@
 	
     <!DOCTYPE html>
 <html>
+	<script>
+		function myFunction() {
+  var x = document.getElementById("links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+	</script>
 	<head>
 		<title>Home | Kaitlyn Meyers</title>
 		<link rel="stylesheet" type="text/css" href="/css/home.css">
 		<link rel="stylesheet" type="text/css" href="/css/navbar.css">
 	</head>
 	<body>
-		<nav>
-	<ul>
-		<li><a href="/index.html">Home</a></li>
-		<li><a href="/about.html">About</a></li>
-		<li><a href="/coding.html">Coding</a></li>
-		<li><a href="/art.html">Art</a></li>
-		<li><a href="/blog.html">Blog</a></li>
-		<li><a href="/contact.html">Contact</a></li>
-	</ul>
-</nav>
-		<div id="background">
-			<img src="</images/home_background.jpg">
-		</div>
+		<div id="navbar">
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<img src="/images/menu_icon.png">
+	</a>
+	<div id="links">
+		<a href="/index.html">Home</a>
+		<a href="/about.html">About</a>
+		<a href="/coding.html">Coding</a>
+		<!--li><a href="/art.html">Art</a></li>-->
+		<a href="/contact.html">Contact</a>
+	</div>
+</div>
 		<div id="about">
 			<h1>Hi, I'm Kaitlyn!</h1>
 			<p>I'm a programmer and artist who is currently studying Computing Science</p>
-			<button href="/about.html">Learn More About Me</button>
 		</div>
-		<div id="code">
-			<h2 class="projects">Coding Projects</h2>
-			<a href="/coding.html"><img src="images/coding.jpg" alt="Code"></a>
+		<div id="skills">
+			<h2>Skills</h2>
+			<ul>
+				<li>C#</li>
+				<li>Python</li>
+				<li>Java</li>
+				<li>C++</li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+			<ul>
 		</div>
+		<div id="coding">
+			<h2>Coding Projects</h2>
+			<button class="btn">All</button>
+			<button class="btn">Game</button>
+			<button class="btn">Web</button>
+			<button class="btn">App</button>
+			<div id="gallery">
+				<div class="project">
+					<a class="project-title" href="#">Positive Memory App</a>
+					<div class="project-image">
+						<img src="/images/positive_memory_app.jpg">
+					</div>
+				</div>
+				<div class="project">
+					<a class="project-title" href="#">Piloga Website</a>
+					<div class="project-image">
+							<img src="/images/piloga_website.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
 		<div id="art">
-			<h2 class="projects">Art Projects</h2>
-			<a href="/art.html"><img src="images/art.jpg" alt="Art Supplies"></a>
+		</div>
+		-->
+		<div id="contact">
+			<h2>Contact Me!</h2>
+			<a href="mailto:ka.meyers1101@gmail.com"><h3>Email</h3></a>
 		</div>
 	</body>
 </html>

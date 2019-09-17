@@ -5,6 +5,9 @@ title: Home | Kaitlyn Meyers
 
 <!DOCTYPE html>
 <html>
+	<script>
+		{% include nav.js %}
+	</script>
 	<head>
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/home.css">
@@ -12,21 +15,50 @@ title: Home | Kaitlyn Meyers
 	</head>
 	<body>
 		{% include navigation.html %}
-		<div id="background">
-			<img src="{{site.baseurl}}/images/home_background.jpg">
-		</div>
 		<div id="about">
 			<h1>Hi, I'm Kaitlyn!</h1>
 			<p>I'm a programmer and artist who is currently studying Computing Science</p>
-			<button href="{{site.baseurl}}/about.html">Learn More About Me</button>
 		</div>
-		<div id="code">
-			<h2 class="projects">Coding Projects</h2>
-			<a href="{{site.baseurl}}/coding.html"><img src="{{site.baseurl}}/images/coding.jpg" alt="Code"></a>
+		<div id="skills">
+			<h2>Skills</h2>
+			<ul>
+				<li>C#</li>
+				<li>Python</li>
+				<li>Java</li>
+				<li>C++</li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+			<ul>
 		</div>
+		<div id="coding">
+			<h2>Coding Projects</h2>
+			<button class="btn">All</button>
+			<button class="btn">Game</button>
+			<button class="btn">Web</button>
+			<button class="btn">App</button>
+			<div id="gallery">
+				<div class="project">
+					<a class="project-title" href="#">Positive Memory App</a>
+					<div class="project-image">
+						<img src="{{site.baseurl}}/images/positive_memory_app.jpg">
+					</div>
+				</div>
+				<div class="project">
+					<a class="project-title" href="#">Piloga Website</a>
+					<div class="project-image">
+							<img src="{{site.baseurl}}/images/piloga_website.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
 		<div id="art">
-			<h2 class="projects">Art Projects</h2>
-			<a href="{{site.baseurl}}/art.html"><img src="{{site.baseurl}}/images/art.jpg" alt="Art Supplies"></a>
+		</div>
+		-->
+		<div id="contact">
+			<h2>Contact Me!</h2>
+			<a href="mailto:ka.meyers1101@gmail.com"><h3>Email</h3></a>
 		</div>
 	</body>
 </html>
