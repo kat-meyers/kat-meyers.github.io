@@ -1,2 +1,4 @@
 theme: jekyll-theme-midnight
-url: "https://kat-meyers.github.io"
+
+url: http://kaitlynmeyers.com
+baseurl: "/kat-meyers.github.io"
