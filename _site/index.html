@@ -18,6 +18,56 @@
     x.style.display = "block";
   }
 }
+		
+		var Games = document.getElementsByClassName("game");
+		var Websites = document.getElementsByClassName("web");
+		var Apps = document.getElementsByClassName("app");
+		var i;
+	
+		function All(){
+			for(i = 0; i < Games.length; i++){
+				Games[i].style.display = "block";
+			}
+			for(i = 0; i < Games.length; i++){
+				Websites[i].style.display = "block";
+			}
+			for(i = 0; i < Games.length; i++){
+				Apps[i].style.display = "block";
+			}
+		}
+		function Game(){
+			for(i = 0; i < Games.length; i++){
+				Games[i].style.display = "block";
+			}
+			for(i = 0; i < Games.length; i++){
+				Websites[i].style.display = "none";
+			}
+			for(i = 0; i < Games.length; i++){
+				Apps[i].style.display = "none";
+			}
+		}
+		function Web(){
+			for(i = 0; i < Games.length; i++){
+				Games[i].style.display = "none";
+			}
+			for(i = 0; i < Games.length; i++){
+				Websites[i].style.display = "block";
+			}
+			for(i = 0; i < Games.length; i++){
+				Apps[i].style.display = "none";
+			}
+		}
+		function App(){
+			for(i = 0; i < Games.length; i++){
+				Games[i].style.display = "none";
+			}
+			for(i = 0; i < Games.length; i++){
+				Websites[i].style.display = "none";
+			}
+			for(i = 0; i < Games.length; i++){
+				Apps[i].style.display = "block";
+			}
+		}
 	</script>
 	<head>
 		<title>Home | Kaitlyn Meyers</title>
@@ -55,21 +105,23 @@
 		</div>
 		<div id="coding">
 			<h2>Coding Projects</h2>
-			<button class="btn">All</button>
-			<button class="btn">Game</button>
-			<button class="btn">Web</button>
-			<button class="btn">App</button>
+			<div id="buttons">
+				<button class="btn" onclick="All()">All</button>
+				<button class="btn" onclick="Game()">Game</button>
+				<button class="btn" onclick="Web()">Web</button>
+				<button class="btn" onclick="App()">App</button>
+			</div>
 			<div id="gallery">
-				<div class="project">
+				<div class="project app">
 					<a class="project-title" href="#">Positive Memory App</a>
 					<div class="project-image">
-						<img src="http://localhost:4000/images/positive_memory_app.jpg">
+						<img src="/images/positive_memory_app.png">
 					</div>
 				</div>
-				<div class="project">
+				<div class="project web">
 					<a class="project-title" href="#">Piloga Website</a>
 					<div class="project-image">
-							<img src="http://localhost:4000/images/piloga_website.jpg">
+							<img src="/images/piloga_website.png">
 					</div>
 				</div>
 			</div>

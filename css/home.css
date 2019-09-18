@@ -13,6 +13,16 @@ html, body{
 	margin: 0;
 }
 
+h2{
+	text-align: center;
+	background-color: #2E1C2B;
+	color: #EAEAEA;
+	padding: 25px;
+}
+h3{
+	text-align: center;
+}
+
 #about{
 	padding: 1% 0;
 	width: 100%;
@@ -27,16 +37,30 @@ html, body{
 	list-style: none;
 }
 
-
-#coding{
+#buttons{
 	margin: 0 auto;
+	text-align: center;
 }
+.btn{
+	text-decoration: underline;
+	border: none;
+	background-color: white;
+	font-size: 1.2em;
+}
+
+
+
+
 #gallery{
 	display: flex;
+	width: 60%;
+	margin: 0 auto;
 }
 .project{
 	position: relative;
 	overflow: hidden;
+	height: auto;
+	width: 100%;
 }
 .project-image{
 	line-height: 0;
