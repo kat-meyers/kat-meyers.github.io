@@ -13,9 +13,11 @@ title: Home | Kaitlyn Meyers
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="{{site.url}}/css/home.css">
 		<link rel="stylesheet" type="text/css" href="{{site.url}}/css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="{{site.url}}/css/footer.css">
 	</head>
 	<body>
 		{% include navigation.html %}
+		<div id="blanket"></div>
 		<div id="about">
 			<h1>Hi, I'm Kaitlyn!</h1>
 			<p>I'm a programmer and artist who is currently studying Computing Science</p>
@@ -55,13 +57,8 @@ title: Home | Kaitlyn Meyers
 				</div>
 			</div>
 		</div>
-		<!--
-		<div id="art">
+		<div id="blanket">
 		</div>
-		-->
-		<div id="contact">
-			<h2>Contact Me!</h2>
-			<a href="mailto:ka.meyers1101@gmail.com"><h3>Email</h3></a>
-		</div>
+		{% include footer.html %}
 	</body>
 </html>

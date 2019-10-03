@@ -1,0 +1,15 @@
+#footer{
+	text-align: center;
+	background-color: #2E1C2B;
+	color: #EAEAEA;
+}
+#footer > #contact > a > img{
+	margin: auto;
+	width: 4vw;
+	height: auto;
+}
+#contact{
+	padding: 0 0 2vw 0;
+}
+
+
