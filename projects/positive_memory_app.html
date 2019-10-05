@@ -1,0 +1,46 @@
+---
+layout: default
+title: Positive Memory App | Kaitlyn Meyers
+---
+
+<!DOCTYPE html>
+<html>
+	<script>
+		{% include nav.js %}
+	</script>
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="{{site.url}}/css/project.css">
+		<link rel="stylesheet" type="text/css" href="{{site.url}}/css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="{{site.url}}/css/footer.css">
+	</head>
+	<body>
+		{% include navigation.html %}
+		<h2>Positive Memory App</h2>
+		
+		<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/DMMChNC3WZw" 
+		frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+		allowfullscreen></iframe>
+		
+		<div id="description">
+			<p>The Positive Memory App's main function is to 
+			allow the user to keep track of events from that day, 
+			and look back on what happened on that day. The user is 
+			able to enter the date and the entry, and save both to a 
+			local database. The user can then view the entries list.
+			There are three ways to search: date, keyword, or randomly. 
+			Once the user finds the desired entry, they can click on it 
+			to view it as well as edit it or delete it.</p>
+
+			<h3>Main Features:</h3>
+			<ul>
+				<li>add new entry</li>
+				<li>view entries</li>
+				<li>search by date, keyword, or randomly</li>
+				<li>edit or delete entry</li>
+			</ul>
+		</div>
+
+		{% include footer.html %}
+	</body>	
+</html>

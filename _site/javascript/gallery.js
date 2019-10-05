@@ -1,7 +1,7 @@
 var Games = document.getElementsByClassName("game");
-var Websites = document.getElementsByClassName("web");
-var Apps = document.getElementsByClassName("app");
-var i;
+	var Websites = document.getElementsByClassName("web");
+	var Apps = document.getElementsByClassName("app");
+	var i;
 	
 	function All(){
 		for(i = 0; i < Games.length; i++){

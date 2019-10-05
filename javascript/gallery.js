@@ -7,10 +7,10 @@ var Games = document.getElementsByClassName("game");
 		for(i = 0; i < Games.length; i++){
 			Games[i].style.display = "block";
 		}
-		for(i = 0; i < Games.length; i++){
+		for(i = 0; i < Websites.length; i++){
 			Websites[i].style.display = "block";
 		}
-		for(i = 0; i < Games.length; i++){
+		for(i = 0; i < Apps.length; i++){
 			Apps[i].style.display = "block";
 		}
 	}
@@ -18,10 +18,10 @@ var Games = document.getElementsByClassName("game");
 		for(i = 0; i < Games.length; i++){
 			Games[i].style.display = "block";
 		}
-		for(i = 0; i < Games.length; i++){
+		for(i = 0; i < Websites.length; i++){
 			Websites[i].style.display = "none";
 		}
-		for(i = 0; i < Games.length; i++){
+		for(i = 0; i < Apps.length; i++){
 			Apps[i].style.display = "none";
 		}
 	}
@@ -29,10 +29,10 @@ var Games = document.getElementsByClassName("game");
 		for(i = 0; i < Games.length; i++){
 			Games[i].style.display = "none";
 		}
-		for(i = 0; i < Games.length; i++){
+		for(i = 0; i < Websites.length; i++){
 			Websites[i].style.display = "block";
 		}
-		for(i = 0; i < Games.length; i++){
+		for(i = 0; i < Apps.length; i++){
 			Apps[i].style.display = "none";
 		}
 	}
@@ -40,10 +40,10 @@ var Games = document.getElementsByClassName("game");
 		for(i = 0; i < Games.length; i++){
 			Games[i].style.display = "none";
 		}
-		for(i = 0; i < Games.length; i++){
+		for(i = 0; i < Websites.length; i++){
 			Websites[i].style.display = "none";
 		}
-		for(i = 0; i < Games.length; i++){
+		for(i = 0; i < Apps.length; i++){
 			Apps[i].style.display = "block";
 		}
 	}

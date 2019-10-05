@@ -23,6 +23,35 @@ h3{
 	text-align: center;
 }
 
+#skills > ul > li{
+	width: 5%;
+	text-align: center;
+	padding: 0.5vw;
+	text-decoration: none;
+	list-style: none;
+	background-color: #893168;
+	color: white;
+	font-size: 1.2em;
+}
+.container {
+  width: 75%;
+  background-color: #ddd; 
+}
+.skills {
+  text-align: right; 
+  padding-right: 5px;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+.c-sharp{width: 50%; background-color: #4A1942;}
+.python{width: 50%; background-color: #4A1942;}
+.java{width: 70%; background-color: #4A1942;}
+.cplusplus{width: 40%; background-color: #4A1942;}
+.html{width: 85%; background-color: #4A1942;}
+.css{width: 85%; background-color: #4A1942;}
+.javascript{width: 70%; background-color: #4A1942;}
+
 #about{
 	padding: 1% 0;
 	width: 100%;
@@ -31,10 +60,6 @@ h3{
 	background-color: #2E1C2B;
 	color: #EAEAEA;
 	text-shadow: 2px 2px black;
-}
-#skills > ul > li{
-	text-decoration: none;
-	list-style: none;
 }
 
 #buttons{

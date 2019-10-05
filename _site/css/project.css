@@ -1,0 +1,13 @@
+h2{
+	text-align: center;
+	background-color: #2E1C2B;
+	color: #EAEAEA;
+	padding: 25px;
+}
+#video{
+	display: block;
+	margin: auto;
+}
+#description{
+	padding: 0 15vw 0 15vw;
+}
